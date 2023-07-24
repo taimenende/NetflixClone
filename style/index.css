@@ -1,0 +1,200 @@
+@font-face {
+    font-family: Netflix;
+    src: url(../assets/fonte/NetflixSans-Regular.otf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Netflix, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#page{
+    width: 100%;
+    height: auto;   
+    margin: 0px auto;
+    color: white; 
+    background-color: black;
+}
+/* HEADER OF THE PAGE - START */
+header{
+    width: 100%;
+    height: 560px;
+    margin: 0px auto;
+}
+nav{
+    height: 70px;
+    display: flex;
+}
+#navLeft, #navRight{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#logo{
+    width: 25%;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#logo:hover{
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: red;
+}
+#navRight{
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+#userIcon{
+    width: 8%;
+    cursor: pointer;
+}
+#userIcon:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+    
+}
+.navIcon{
+    width: 4%; 
+}
+nav h5{    
+    font-weight: normal;
+}
+.banner{
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#imgBanner1{
+    background-image: url(../assets/posters/StrangerThings.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+.textBanner{
+    width: 30%;
+}
+h1{
+    font-size: 29pt;
+}
+h1, p{
+    margin-left: 12px;
+}
+.banner h3, h4{
+    margin: 15px 32px;
+}
+#button{
+    margin: 15px 32px;
+    display: flex;
+    gap: 15px;
+}
+button{
+    color: white;
+    font-family: Netflix;
+    font-size: 11pt;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgba(44, 44, 44, 0.904); 
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: 400ms linear;
+}
+/* HEADER OF THE PAGE - END */
+
+/* MAIN CONTENT OF THE PAGE */
+#categories{
+    width: 100%;
+    height: auto;
+}
+.series{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+#imgBanner2{
+    background-image: url(../images/Polonais.png);
+    background-size: cover;
+    background-position: top;
+}
+#otherCategories{
+    height: 160px;
+}
+.otherCategories{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;     
+}
+#comedia{
+    width: 14%;
+    background-color: rgb(172, 127, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#acao{
+    width: 14%;
+    background-color: rgb(110, 110, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#drama{
+    width: 14%;
+    background-color: rgb(187, 187, 25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#scifi{
+    width: 14%;
+    background-color: rgb(86, 230, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#romance{
+    width: 14%;
+    background-color: rgb(218, 116, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#thriller{
+    width: 14%;
+    background-color: rgb(230, 130, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#terror{
+    width: 14%;
+    background-color: rgb(74, 74, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 80px;
+    background-color: rgb(22, 21, 21);
+    color: rgb(156, 153, 153);
+    text-align: center;
+}
+footer p{
+   padding-top: 30px;
+   font-size: small;
+}
